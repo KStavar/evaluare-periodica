@@ -1,0 +1,74 @@
+body {
+    background-image: url("/img/new_background_1.png");
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    
+  }
+  
+  .page{
+    display: flex;
+  }
+
+  #left-column{
+    border: 3px solid green;
+    display: flex;
+    justify-items: column;
+  }
+
+  .h2-orar{
+    width: 300px;
+    height: 60px;
+    border: 2px solid  yellow;
+    background-color: white;
+    text-align: center;
+    
+  }
+
+ 
+  .month{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto ;
+  }
+  .m-day{
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #right-column{
+    border: 3px solid red;
+  }
