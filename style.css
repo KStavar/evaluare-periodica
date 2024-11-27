@@ -8,6 +8,7 @@ body {
 
 .page {
   display: flex;
+  justify-content: space-around;
 }
 
 #left-column {
@@ -23,14 +24,10 @@ body {
   background-color: white;
   text-align: center;
   font-size: 16px;
-  
+  margin-left: 15%;
+  margin-bottom: 20px;;
 }
 
-p{ margin: 5px;}
-
-input {
-  margin: 5px;
-}
 
 .div-buttons {
   border: 2px solid red;
@@ -39,18 +36,42 @@ input {
 
 }
 
+.buttons{
+  width: auto;
+  height: 38px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 16px;
+}
+
+input {
+  margin: 5px;
+  height: 40px;
+  padding-left: 40px;
+}
 
 
 .grupe {
   background-color: white;
+  margin: 5px;
+  height: 40px;
+  width: auto;
+  align-items: center;
 }
 
 .days {
   background-color: white;
+  margin: 5px;
+  height: 40px;
+  width: auto;
 }
 
 .data {
   background-color: white;
+  margin: 5px;
+  height: 40px;
+  width: auto;
+
 }
 
 .month {
@@ -73,4 +94,6 @@ input {
 
 
 
+#right-column{
+  border: 2px solid red;
 }
