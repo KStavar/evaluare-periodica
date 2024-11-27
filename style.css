@@ -3,7 +3,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-
 }
 
 .page {
@@ -18,34 +17,48 @@ body {
 }
 
 .orar-name {
-  width: 300px;
+  width: auto;
   height: 60px;
-  border: 2px solid yellow;
   background-color: white;
   text-align: center;
   font-size: 16px;
-  margin-left: 15%;
-  margin-bottom: 20px;;
+  margin-bottom: 20px;
+
 }
 
 
 .div-buttons {
-  border: 2px solid red;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 
 }
 
-.buttons{
+.buttons {
   width: auto;
   height: 38px;
   padding-left: 30px;
   padding-right: 30px;
-  font-size: 16px;
+  font-size: 15px;
+  border: transparent;
+  background-color: rgb(37, 151, 90);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.1s;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+
+.buttons:hover {
+  background-color: white;
+  color: black;
+}
+
+p {
+  color: white;
 }
 
 input {
-  margin: 5px;
+  margin-bottom: 20px;
   height: 40px;
   padding-left: 40px;
 }
@@ -53,32 +66,43 @@ input {
 
 .grupe {
   background-color: white;
-  margin: 5px;
   height: 40px;
-  width: auto;
   align-items: center;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.it11z{
+  height: 25px;
+  display: flex;
+  align-items:center;
+  padding-left: 10px;
+  font-weight:500;
+}
+
+.it11z:hover{
+background-color:#F2EFBD;
+color:#5EBF88;
+font-weight: 700;
 }
 
 .days {
   background-color: white;
-  margin: 5px;
   height: 40px;
   width: auto;
+  margin-bottom: 20px;
 }
 
 .data {
   background-color: white;
-  margin: 5px;
   height: 40px;
   width: auto;
-
+  margin-bottom: 20px;
 }
 
 .month {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto;
-  margin-top: 20px;
-  background-color:white;
+  background-color: white;
 }
 
 .m-day {
@@ -94,6 +118,6 @@ input {
 
 
 
-#right-column{
+#right-column {
   border: 2px solid red;
 }
