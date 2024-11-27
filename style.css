@@ -35,8 +35,6 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-
-
 .div-buttons {
   display: flex;
   justify-content: space-between;
@@ -46,40 +44,86 @@ body {
 .toggle {
   display: none;
 }
+
 .button {
-  background-color: rgb(37, 151, 90) ;
+  background-color: rgb(37, 151, 90);
   color: white;
-  padding: 10px 20px;
+  padding: 10px 30px;
   border: none;
   cursor: pointer;
   display: inline-block;
   margin: 5px;
-}
-
-#toggle1:checked + .button {
-  background-color: white;
-  color: black;
-}
-
-#toggle2:checked + .button {
-  background-color: white;
-  color: black;
-}
-
-#toggle3:checked + .button {
-  background-color: white;
-  color: black;
-}
-
-.div-regim {
-  color: white;
   font-weight: 600;
-  display: flex;
-  margin-top: 20px;
 }
 
-.regim {
-  margin-right: 10px;
+#toggle1:checked+.button {
+  background-color: white;
+  color: black;
+}
+
+#toggle2:checked+.button {
+  background-color: white;
+  color: black;
+}
+
+#toggle3:checked+.button {
+  background-color: white;
+  color: black;
+}
+
+.p-switch{
+  display: flex;
+  align-items:center;
+}
+
+.p{
+  color:white;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  cursor: pointer;
+  padding-left: 3px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 27px;
+  width: 27px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked+.slider {
+  background-color: rgb(37, 151, 90);
+}
+
+input:checked+.slider:before {
+  transform: translateX(26px);
 }
 
 
