@@ -7,18 +7,19 @@ body {
 
 .page {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 40px;
 
 }
 
 #left-column {
-  border: 3px solid green;
   display: flex;
   flex-direction: column;
   width: 405;
 }
 
 .orar-name {
+  margin-top: 10px;
   width: auto;
   height: auto;
   background-color: #F8F8F8;
@@ -73,15 +74,15 @@ body {
   color: black;
 }
 
-.p-switch{
+.p-switch {
   display: flex;
-  align-items:center;
+  align-items: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.p{
-  color:white;
+.p {
+  color: white;
   font-weight: 600;
   margin-right: 5px;
 }
@@ -153,6 +154,8 @@ input {
   padding-left: 10px;
   font-weight: 500;
   cursor: pointer;
+  background-color:rgb(37, 151, 90);
+  color: white;
 }
 
 .it11z:hover {
@@ -179,7 +182,9 @@ input {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto;
   background-color: white;
-  color:white;
+  color: white;
+
+
 }
 
 .m-day {
@@ -190,11 +195,23 @@ input {
   margin-bottom: -1px;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
-.ppw-cabac{
-  background-color:rgba(147, 112, 216, 0.882);
+.ppw-cabac {
+  background-color: rgba(147, 112, 216, 0.882);
+  border: 1px solid grey;
+  width: 51px;
+  height: 25px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-rotari {
+  background-color: rgb(99, 219, 78);
   border: 1px solid grey;
   width: 50px;
   height: 25px;
@@ -202,23 +219,11 @@ input {
   margin-bottom: -1px;
   display: flex;
   justify-content: center;
-  align-items:center;
-}
-
-.m-rotari{
-  background-color:rgb(99, 219, 78);
-  border: 1px solid grey;
-  width: 50px;
-  height: 25px;
-  margin-left: -1px;
-  margin-bottom: -1px;
-  display: flex;
-  justify-content: center;
-  align-items:center;
+  align-items: center;
 
 }
 
-.bp-lab{
+.bp-lab {
   background-color: green;
   border: 1px solid grey;
   width: 50px;
@@ -227,10 +232,10 @@ input {
   margin-bottom: -1px;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
-.fizra{
+.fizra {
   background-color: black;
   border: 1px solid grey;
   width: 50px;
@@ -239,11 +244,11 @@ input {
   margin-bottom: -1px;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
-.english{
-  background-color:rgb(60, 31, 11);
+.english {
+  background-color: rgb(60, 31, 11);
   border: 1px solid grey;
   width: 50px;
   height: 25px;
@@ -251,11 +256,11 @@ input {
   margin-bottom: -1px;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
-.ppw-chilat{
-  background-color:rgb(127, 255, 191);
+.ppw-chilat {
+  background-color: rgb(127, 255, 191);
   border: 1px solid grey;
   width: 50px;
   height: 25px;
@@ -263,11 +268,11 @@ input {
   margin-bottom: -1px;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
-.m-negara{
-  background-color:rgb(252, 154, 25);
+.m-negara {
+  background-color: rgb(252, 154, 25);
   border: 1px solid grey;
   width: 50px;
   height: 25px;
@@ -275,11 +280,11 @@ input {
   margin-bottom: -1px;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
-.eg-sementsov{
-  background-color:rgb(171, 170, 170);
+.eg-sementsov {
+  background-color: rgb(171, 170, 170);
   border: 1px solid grey;
   width: 50px;
   height: 25px;
@@ -287,12 +292,12 @@ input {
   margin-bottom: -1px;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 
 }
 
-.aplic-gen{
-  background-color:deeppink;
+.aplic-gen {
+  background-color: deeppink;
   border: 1px solid grey;
   width: 50px;
   height: 25px;
@@ -300,7 +305,7 @@ input {
   margin-bottom: -1px;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
 .l-m-day {
@@ -334,35 +339,113 @@ input {
   grid-template-columns: auto auto;
 }
 
-.letters{
-
-  color:white;
+.letters {
+  color: white;
   font-size: 12px;
   font-weight: 700;
   width: 460px;
   height: 120px;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   display: flex;
- flex-wrap: wrap;
- margin-top: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
 }
 
-.letter{
-margin: 0px 0px 20px 10px;
+.letter {
+  margin: 0px 0px 20px 10px;
 }
 
-.nu-e-activ{
-  background-color:rgb(228, 253, 246);
-  color:#5EBF88;
-  width: 100%;
+.nu-e-activ {
+  background-color: rgb(228, 253, 246);
+  color: #5EBF88;
+  width: 443px;
   height: 40px;
   display: flex;
-  align-items:center;
+  align-items: center;
   padding: 10px;
+}
+
+.bottom-buttons {
+  margin-bottom: 10px;
+}
+
+.bbuttons1 {
+  background-color: rgb(37, 151, 90);
+  color: white;
+  border: white;
+  border-radius: 1px;
+  padding: 4px;
+}
+
+.bbuttons2 {
+  background-color: rgb(252, 71, 113);
+  color: white;
+  border: white;
+  border-radius: 1px;
+  padding: 4px;
+}
+
+.bbuttons3 {
+  background-color: rgb(121, 18, 114);
+  color: white;
+  border: white;
+  border-radius: 1px;
+  padding: 4px;
+
 }
 
 
 #right-column {
-  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  ;
+  font-size: 21px;
+  font-weight: 900;
+}
+
+.schedule {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: white;
+}
+
+.s-left {
+  border: 1px solid white;
+  width: 150px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 151, 90);
+  text-align: center;
+  color:white;
+}
+
+.s-left-e {
+  border: 1px solid white;
+  height: 57px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(37, 151, 90);
+  color: white;
+}
+
+.s-right {
+  border: 1px solid grey;
+border-left: 0;
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
