@@ -1,74 +1,76 @@
 body {
-    background-image: url("/img/new_background_1.png");
-    background-repeat:no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    
-  }
-  
-  .page{
-    display: flex;
-  }
+  background-image: url("/img/new_background_1.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 
-  #left-column{
-    border: 3px solid green;
-    display: flex;
-    justify-items: column;
-  }
+}
 
-  .h2-orar{
-    width: 300px;
-    height: 60px;
-    border: 2px solid  yellow;
-    background-color: white;
-    text-align: center;
-    
-  }
+.page {
+  display: flex;
+}
 
- 
-  .month{
-    display:grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto ;
-  }
-  .m-day{
-    border: 1px solid black;
-    width: 50px;
-    height: 30px;
-  }
+#left-column {
+  border: 3px solid green;
+  display: flex;
+  flex-direction: column;
+}
+
+.orar-name {
+  width: 300px;
+  height: 60px;
+  border: 2px solid yellow;
+  background-color: white;
+  text-align: center;
+  font-size: 16px;
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  #right-column{
-    border: 3px solid red;
-  }
+}
+
+p{ margin: 5px;}
+
+input {
+  margin: 5px;
+}
+
+.div-buttons {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+
+.grupe {
+  background-color: white;
+}
+
+.days {
+  background-color: white;
+}
+
+.data {
+  background-color: white;
+}
+
+.month {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  margin-top: 20px;
+  background-color:white;
+}
+
+.m-day {
+  border: 1px solid black;
+  width: 50px;
+  height: 30px;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+
+
+}
