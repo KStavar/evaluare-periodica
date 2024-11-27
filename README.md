@@ -1,0 +1,1 @@
+# evaluare-periodica
