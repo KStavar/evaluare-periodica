@@ -74,6 +74,8 @@ body {
 .p-switch{
   display: flex;
   align-items:center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .p{
@@ -175,6 +177,7 @@ input {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto;
   background-color: white;
+  color:white;
 }
 
 .m-day {
@@ -183,7 +186,119 @@ input {
   height: 25px;
   margin-left: -1px;
   margin-bottom: -1px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
 
+.ppw-cabac{
+  background-color:rgba(147, 112, 216, 0.882);
+  border: 1px solid grey;
+  width: 50px;
+  height: 25px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.m-rotari{
+  background-color:rgb(99, 219, 78);
+  border: 1px solid grey;
+  width: 50px;
+  height: 25px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+
+}
+
+.bp-lab{
+  background-color: green;
+  border: 1px solid grey;
+  width: 50px;
+  height: 25px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.fizra{
+  background-color: black;
+  border: 1px solid grey;
+  width: 50px;
+  height: 25px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.english{
+  background-color:rgb(60, 31, 11);
+  border: 1px solid grey;
+  width: 50px;
+  height: 25px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.ppw-chilat{
+  background-color:rgb(127, 255, 191);
+  border: 1px solid grey;
+  width: 50px;
+  height: 25px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.m-negara{
+  background-color:rgb(252, 154, 25);
+  border: 1px solid grey;
+  width: 50px;
+  height: 25px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.eg-sementsov{
+  background-color:rgb(171, 170, 170);
+  border: 1px solid grey;
+  width: 50px;
+  height: 25px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+
+}
+
+.aplic-gen{
+  background-color:deeppink;
+  border: 1px solid grey;
+  width: 50px;
+  height: 25px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
 }
 
 .l-m-day {
