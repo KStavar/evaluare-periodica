@@ -154,7 +154,7 @@ input {
   padding-left: 10px;
   font-weight: 500;
   cursor: pointer;
-  background-color:rgb(37, 151, 90);
+  background-color: rgb(37, 151, 90);
   color: white;
 }
 
@@ -180,7 +180,7 @@ input {
 
 .month {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
   background-color: white;
   color: white;
 
@@ -309,7 +309,7 @@ input {
 }
 
 .l-m-day {
-  width: 100px;
+
   border: 1px solid rgb(255, 255, 255);
   margin: 0;
   margin-bottom: -1px;
@@ -414,6 +414,36 @@ h1 {
   display: grid;
   grid-template-columns: auto auto;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.span{
+
+  display: flex;
+  cursor: pointer;
+}
+
+.span:hover .s-left {
+  background-color:#F2EFBD !important;
+color: black;
+}
+
+.span:hover .s-left-e {
+  background-color:#F2EFBD !important;
+color: black;
+}
+
+.span:hover .s-right {
+  background-color:#F2EFBD !important;
+color: black;
+}
+
+.row{
+  display: flex;
+  width: 100%;
+  grid-auto-flow: row;
 }
 
 .s-left {
@@ -425,7 +455,7 @@ h1 {
   align-items: center;
   background-color: rgb(37, 151, 90);
   text-align: center;
-  color:white;
+  color: white;
 }
 
 .s-left-e {
@@ -442,7 +472,7 @@ h1 {
 
 .s-right {
   border: 1px solid grey;
-border-left: 0;
+  border-left: 0;
   width: 550px;
   display: flex;
   justify-content: center;
